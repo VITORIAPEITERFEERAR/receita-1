@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Receitas</title>
+    <!-- Inclua o Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Inclua o Font Awesome CSS (para os ícones) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .nav-barra {
+            background-color: #ffffff; /* Cor de fundo da barra de navegação */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+        .titulo-nav {
+            display: flex;
+            align-items: center; /* Centraliza verticalmente */
+        }
+        .icone-redes-sociais {
+            font-size: 1.5rem; /* Tamanho dos ícones */
+            color: #333; /* Cor dos ícones */
+            margin-left: 10px; /* Espaçamento entre os ícones */
+        }
+        .icone-redes-sociais:hover {
+            color: #007bff; /* Cor dos ícones ao passar o mouse */
+        }
+        .area-conteudo {
+            display: flex;
+        }
+        .imagem-destaque {
+            background-image: url('imagem.png'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            background-position: left; /* Posicione a imagem à esquerda */
+            flex: 2; /* A imagem ocupa todo o espaço disponível */
+            height: 600px; /* Altura da imagem */
+        }
+        .conteudo-texto {
+            flex: 1; /* O texto ocupa todo o espaço disponível */
+            padding: 20px; /* Espaçamento interno */
+        }
+        .redes-sociais {
+            margin-top: 20px; /* Espaçamento superior */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-barra">
+        <div class="container">
+            <div class="titulo-nav">
+                <a class="navbar-brand" href="#">Meu Site de Receitas</a>
+                <!-- Ícones das redes sociais -->
+                <div class="icone-redes-sociais">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+                <!-- Campo de pesquisa -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar receitas" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Área de conteúdo -->
+    <div class="area-conteudo">
+        <!-- Imagem de destaque -->
+        <div class="imagem-destaque"></div>
+
+        <!-- Conteúdo de texto -->
+        <div class="conteudo-texto">
+            <h2>Título do Conteúdo</h2>
+            <p>Texto do conteúdo vai aqui...</p>
+            <!-- Redes Sociais -->
+            <div class="redes-sociais">
+                <!-- Coloque aqui seus links para as redes sociais -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Inclua o Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
