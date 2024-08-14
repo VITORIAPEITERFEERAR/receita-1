@@ -1,0 +1,47 @@
+/* Estilos personalizados */
+
+/* Imagem de fundo para o corpo */
+.body-bg {
+    background-image: url('caminho_para_sua_gif.gif'); /* Substitua pelo caminho do GIF */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Altura mínima de 100% da janela */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para as cards de receitas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Barra de navegação personalizada */
+.nav-barra {
+    background-color: #ffffff; /* Cor de fundo da barra de navegação */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000; /* Para garantir que a barra de navegação fique sobre outros elementos */
+    position: relative;
+}
+
+/* Estilo dos ícones de redes sociais */
+.icone-redes-sociais {
+    font-size: 1.5rem; /* Tamanho dos ícones */
+    color: #333; /* Cor dos ícones */
+    margin-left: 10px; /* Espaçamento entre os ícones */
+}
+
+.icone-redes-sociais:hover {
+    color: #007bff; /* Cor dos ícones ao passar o mouse */
+}
