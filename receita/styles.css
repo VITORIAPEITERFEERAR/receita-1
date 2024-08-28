@@ -2,7 +2,7 @@
 
 /* Imagem de fundo para o corpo */
 .body-bg {
-    background-image: url('caminho_para_sua_gif.gif'); /* Substitua pelo caminho do GIF */
+    background-image: url('receita.jpg'); /* Substitua pelo caminho do GIF */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,8 +29,8 @@
 
 /* Barra de navegação personalizada */
 .nav-barra {
-    background-color: #ffffff; /* Cor de fundo da barra de navegação */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #155f13; /* Cor de fundo da barra de navegação */
+    box-shadow: 0px 2px 4px rgba(114, 32, 32, 0.1); /* Sombra suave */
     z-index: 1000; /* Para garantir que a barra de navegação fique sobre outros elementos */
     position: relative;
 }
